@@ -1,0 +1,1 @@
+g++ -O3 main.cpp -framework OpenGL -framework GLUT -I/usr/include/ni -lOpenNI `pkg-config --cflags opencv --libs opencv` -I/usr/local/include -lalut -framework OpenAL -Wno-deprecated
